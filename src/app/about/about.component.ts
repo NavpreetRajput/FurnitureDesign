@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+// this is a declarator which starts with @ sign. The component word marked in bold needs to be the same.
 @Component({
   selector: 'app-about',
+// reference to the html file created in the new component.
   templateUrl: './about.component.html',
+// reference to the style file.
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
@@ -21,9 +24,10 @@ export class AboutComponent implements OnInit {
       {name:"../../assets/images/slider9.jpg"},
       {name:"../../assets/images/slider10.jpg"},
       {name:"../../assets/images/slider11.jpg"},
-      {name:"../../assets/images/slider12.jpg"},
+     
     ]
   }
+ //ngOnInit constructor is called by default when the class is executed.
   ngOnInit() {
   }
 
