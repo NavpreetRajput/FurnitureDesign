@@ -1,0 +1,30 @@
+.signup{
+    top:10%;
+    left: 17%;
+    position:absolute;
+    height: 710px;
+    background-color:whitesmoke;
+    width:82.5%;
+    /* float: right; */
+    background-image: url("../../assets/images/signup.jpg");
+    background-repeat: no-repeat;
+    background-size:1320px;
+}
+#divform
+{
+    position:absolute;
+    left:-38%;
+width:300px;
+border-style:groove;
+border-radius:15px;
+/* visibility: hidden; */
+margin-left:76%;
+}
+.example-form {
+  width:300px;
+  align-content:center;
+}
+#input
+{
+  width:250px;
+}

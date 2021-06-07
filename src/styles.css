@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body{background-color:whitesmoke;}
+/* body{
+    background-image: url('/assets/images2/walpaper1.png');
+    background-size: 1000px;
+    background-position:relative;
+    left:200%;
+    background-repeat:no-repeat;
+} */

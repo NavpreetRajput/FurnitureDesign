@@ -1,0 +1,161 @@
+
+<div style="float: left ;width:16.5%;position: fixed;">
+  <mat-card  class="side">
+  <div>
+     <img  style="width:96%;height:25%;position:absolute;top:0%;left:2%" src="../../assets/images/fd.jpg"/>
+  </div>
+
+  <div style=" width:100%;height:40%;position:absolute;top:30%;left:1.5%">
+
+<!-- First contianer -->
+
+    <mat-sidenav-container style="width:250px;height: 40px;">
+      <mat-sidenav style="width:100px" #sidenav>
+       <button mat-button (click)="new($event)" ><a routerLink='about' style=" color:black;text-decoration: none">About us</a></button>
+      </mat-sidenav>
+      
+      <div style="width:200px;height: auto;">
+        <button type="button" mat-button (click)="sidenav.open()">
+          About
+        </button>
+        <mat-divider ></mat-divider>
+       </div>
+      </mat-sidenav-container>
+
+<!-- second container -->
+
+      <mat-sidenav-container style="width:250px;height:40px;">
+        <mat-sidenav style="width:100px" #sidenav1>
+            <button mat-button [matMenuTriggerFor]="menu" (click)="new($event)" >
+              Items
+            </button>
+            <mat-menu #menu="matMenu">
+              <a routerLink='beds' style="color:black;text-decoration: none;"> <button mat-menu-item>Beds</button></a>
+              <a routerLink='dress' style="color:black;text-decoration: none;"> <button mat-menu-item>Dressing Tables</button></a>
+              <a routerLink='war' style="color:black;text-decoration: none;"> <button mat-menu-item>Wardrobes</button></a>
+           <a routerLink='sofa' style="color:black;text-decoration: none;">     <button mat-menu-item>Sofas</button></a>
+                <a routerLink='tv' style="color:black;text-decoration: none;"><button mat-menu-item>TV Units</button></a>
+                <a routerLink='shoe' style="color:black;text-decoration: none;"> <button mat-menu-item>Shoe racks</button></a>
+              </mat-menu>
+        </mat-sidenav>
+        
+        <div style="width:200px;height: auto;float:left">
+          <button type="button" mat-button  (click)="sidenav1.open()">
+
+            Items 
+          </button>
+         
+          <mat-divider ></mat-divider>          
+        </div>
+        </mat-sidenav-container>
+
+<!-- third container -->
+<mat-sidenav-container style="width:250px;height:40px;">
+    <mat-sidenav style="width:100px" #sidenav2>
+        <button mat-button [matMenuTriggerFor]="menu1" (click)="new($event)" >
+          New
+        </button>
+        <mat-menu #menu1="matMenu">
+          <a routerLink='curve' style="color:black;text-decoration: none;"> <button mat-menu-item>Curvelinear Designs</button></a>
+          <a routerLink='dist' style="color:black;text-decoration: none;"> <button mat-menu-item>Distress Finished</button></a>
+          <a routerLink='hand' style="color:black;text-decoration: none;"><button mat-menu-item>Hand Painted</button></a>
+          
+          </mat-menu>
+    </mat-sidenav>
+    
+    <div style="width:200px;height: auto;float:left">
+      <button type="button" mat-button  (click)="sidenav2.open()">
+         What's New
+      </button>
+     
+      <mat-divider ></mat-divider>          
+    </div>
+    </mat-sidenav-container>
+
+<!-- fourth container -->
+<mat-sidenav-container style="width:250px;height:40px;">
+    <mat-sidenav style="width:100px" #sidenav3>
+        <button mat-button [matMenuTriggerFor]="menu2" (click)="new($event)" >
+          Collection
+        </button>
+        <mat-menu #menu2="matMenu">
+            <a routerLink='staff' style="color:black;text-decoration: none;"><button mat-menu-item>Stafford</button></a>
+            <a routerLink='segur' style="color:black;text-decoration: none;"> <button mat-menu-item>Segur</button></a>
+            <a routerLink='air' style="color:black;text-decoration: none;"><button mat-menu-item> Airavana</button></a>
+
+          </mat-menu>
+    </mat-sidenav>
+    
+    <div style="width:200px;height: auto;float:left">
+      <button type="button" mat-button  (click)="sidenav3.open()">
+         Handpicked Collection
+      </button>
+     
+      <mat-divider ></mat-divider>          
+    </div>
+    </mat-sidenav-container>
+
+<!-- fifth container -->
+<mat-sidenav-container style="width:250px;height:40px;">
+    <mat-sidenav style="width:100px" #sidenav4>
+        <button mat-button [matMenuTriggerFor]="menu3" (click)="new($event)" >
+          Homestyle
+        </button>
+        <mat-menu #menu3="matMenu">
+            <a routerLink='pots' style="color:black;text-decoration: none;"> <button mat-menu-item>Pots and Planters</button></a>
+            <a routerLink='wall' style="color:black;text-decoration: none;"> <button mat-menu-item>Wall Lights</button></a>
+            <a routerLink='showp' style="color:black;text-decoration: none;"> <button mat-menu-item>Show Pieces</button></a>
+
+          </mat-menu>
+    </mat-sidenav>
+    
+    <div style="width:200px;height: auto;float:left">
+      <button type="button" mat-button  (click)="sidenav4.open()">
+          Homestyle 
+      </button>
+     
+      <mat-divider ></mat-divider>          
+    </div>
+    </mat-sidenav-container>
+
+    <!-- sixth conatianer -->
+
+    <mat-sidenav-container style="width:250px;height: 40px;">
+      <mat-sidenav style="width:100px" #sidenav5>
+        <a routerLink='login' style="color:black;text-decoration: none;"><button mat-button (click)="new($event)" > Login</button></a>
+      </mat-sidenav>
+      
+      <div style="width:200px;height: auto;">
+        <button type="button" mat-button (click)="sidenav5.open()">
+    Login
+        </button>
+        <mat-divider ></mat-divider>
+       </div>
+      </mat-sidenav-container>
+
+        <!-- seventh conatianer -->
+
+    <mat-sidenav-container style="width:250px;height: 40px;">
+        <mat-sidenav style="width:100px" #sidenav6>
+          <a routerLink='signup' style="color:black;text-decoration: none;"> <button mat-button (click)="new($event)" > Signup</button></a>
+        </mat-sidenav>
+        
+        <div style="width:200px;height: auto;">
+          <button type="button" mat-button (click)="sidenav6.open()">
+            Signup
+          </button>
+          <mat-divider ></mat-divider>
+         </div>
+        </mat-sidenav-container>
+  
+  </div>
+   
+
+ 
+</mat-card>
+</div>
+
+
+
+<!-- hand=["HandPicked Collection","Orial","Alfredo","Siramika","Acropolis"];
+home=["HomeStyle","Contemporary","Modern","Colonical","Electic","Indian Ethnic"]; -->

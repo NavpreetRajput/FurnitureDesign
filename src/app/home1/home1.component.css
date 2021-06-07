@@ -1,0 +1,21 @@
+.home1{
+    top:10%;
+    left: 17%;
+    position:absolute;
+    height:710px;
+    background-color:whitesmoke;
+   
+    width:82.5%;
+    float: right;
+}
+#img5{
+    z-index:0;
+    /* background-image: url("../../assets/images/staffback4.jpg"); */
+    /* background-size: 1000px; */
+    /* background-repeat:repeat-y; */
+    /* background-attachment: fixed; */
+    /* position: fixed; */
+   
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}

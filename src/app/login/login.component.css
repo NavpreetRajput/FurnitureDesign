@@ -1,0 +1,14 @@
+.login{
+    top:10%;
+    left: 17%;
+    position:absolute;
+    height: 710px;
+    background-color:whitesmoke;
+    width:82.5%;
+    float: right;
+    background-image: url("../../assets/images/login7.jpg");
+    background-repeat: no-repeat;
+    background-size:1320px;
+    /* -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    /* filter: blur(2px);  */
+}

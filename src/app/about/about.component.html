@@ -1,0 +1,57 @@
+<div class="about">
+  <br />
+
+  <div ng2-carouselamos 
+  [items]="items"
+  [width]="1000"
+  [$prev]="prev"
+  [$next]="next"
+  [$item]="item"></div>
+
+
+  <ng-template #prev>
+    <img src="../../assets/images2/arrow1.png"style="width:70px;height:70px;margin-left:40px; "id="left"/>
+  </ng-template>
+  <ng-template #next>
+    <img src="../../assets/images2/arrow2.png"style="width:70px;height:70px;margin-right:50px" id="right"/>
+  </ng-template>
+  <ng-template #item let-item let-i="index">
+<div class="items">
+<img src="{{item.name}}" height='400px'width='1000px'>
+</div>
+  </ng-template>
+<div style="position:absolute;left:11.5%;width:77%">
+  <h3>
+    About us
+  </h3>
+  <p>
+    We provide the latest designs of furniture.It includes different kinds ofitems like bed, wardrobes, dressing tables,
+    tv units, shoe racks and sofas etc. The items can be further classified as some are curvelinear while others are handpainted.
+    The distress finished is also not known but we provides its new and beautiful designs. There is another field called Handpicked
+   collection. It covers Orial, Alfredo, Siramika, Acropolis.We also provide different homestyles which is categorized under Contemporary,
+   Colonical, Electic, Indian Ethnic.We provide our best designs. If u guys have any kind of queries you can mail us.We are always 
+   on our service...
+   
+  </p>
+  <hr >
+  <mat-toolbar color="accent"style="height: 4%;">
+    <div style="width: 20%;text-align:left;float: right">
+      <span>
+       Email: furnitureDesign777@gmail.com
+      </span>
+
+    </div>
+  </mat-toolbar>
+  <mat-toolbar color="accent"style="height: 4%;">
+      <div style="width: 20%;text-align:left;float: left">
+          <span >
+        Contact: 9787654567
+          </span>
+    
+        </div>
+  </mat-toolbar>
+
+
+ 
+  
+  </div>
