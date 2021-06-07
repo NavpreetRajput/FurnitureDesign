@@ -1,6 +1,12 @@
 <div class="about">
   <br />
-
+<!--  Using carouselamos to slide the pictures.
+Items are the objects array that belong to the carousel.
+Width is the size of window to show.
+$item is the template for each item
+$prev is the template for previous button
+$next is the template for next button
+ -->
   <div ng2-carouselamos 
   [items]="items"
   [width]="1000"
@@ -21,9 +27,12 @@
 </div>
   </ng-template>
 <div style="position:absolute;left:11.5%;width:77%">
+  
+<!-- Heading of the Paragraph  -->
   <h3>
     About us
   </h3>
+<!-- Information about the Website -->
   <p>
     We provide the latest designs of furniture.It includes different kinds ofitems like bed, wardrobes, dressing tables,
     tv units, shoe racks and sofas etc. The items can be further classified as some are curvelinear while others are handpainted.
@@ -34,6 +43,7 @@
    
   </p>
   <hr >
+<!--Mat-Toolbar is used to create a toolbar to show the email and phone number.   -->
   <mat-toolbar color="accent"style="height: 4%;">
     <div style="width: 20%;text-align:left;float: right">
       <span>
@@ -42,10 +52,12 @@
 
     </div>
   </mat-toolbar>
+  
+  <!--Mat-Toolbar color is used for the style.   -->
   <mat-toolbar color="accent"style="height: 4%;">
       <div style="width: 20%;text-align:left;float: left">
           <span >
-        Contact: 9787654567
+        Contact: 4372269001
           </span>
     
         </div>
