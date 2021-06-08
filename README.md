@@ -5,11 +5,18 @@ Furniture Design is a front-end framework which has several pages such as About 
 
 NOTE: This is a Sample Project, So I have used only Front-end Framework and the database is not connected.
 
+## Angular Concepts Covered
+Using the Angular CLI
+Using TypeScript classes and modules
+Using Custom Components
+Using Angular databinding and built-in directives
+Creating a RESTful Service using Node.js
+
 ## Technologies used
+Angular CLI: 12.0.1
+Node: 14.17.0
 
 npm
-
-Angular CLI
 
 HTML and CSS
 
