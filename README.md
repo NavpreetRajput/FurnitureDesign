@@ -7,13 +7,17 @@ NOTE: This is a Sample Project, So I have used only Front-end Framework and the 
 
 ## Angular Concepts Covered
 Using the Angular CLI
+
 Using TypeScript classes and modules
+
 Using Custom Components
+
 Using Angular databinding and built-in directives
-Creating a RESTful Service using Node.js
+
 
 ## Technologies used
 Angular CLI: 12.0.1
+
 Node: 14.17.0
 
 npm
@@ -29,6 +33,12 @@ Angular
 ## Software and Tools Required 
 
 IDE
+
+## To install Angular in Local System
+Step 1: Node.js and npm package manager needs to be installed.
+
+Step 2: Install the Angular CLI
+npm install -g @angular/cli
 
 ## Importing and running the project through Eclipse IDE on Mac
 
