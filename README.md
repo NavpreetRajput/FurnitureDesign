@@ -34,11 +34,11 @@ Angular
 
 IDE
 
-## To install Angular in Local System
+## To install Angular in Local System 
 Step 1: Node.js and npm package manager needs to be installed.
 
 Step 2: Install the Angular CLI
-npm install -g @angular/cli
+Run `npm install -g @angular/cli` on your terminal.
 
 ## Importing and running the project through Eclipse IDE on Mac
 
