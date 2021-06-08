@@ -32,6 +32,8 @@ Angular
 
 ## Software and Tools Required 
 
+Angular JS
+
 IDE
 
 ## To install Angular in Local System 
