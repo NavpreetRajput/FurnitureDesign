@@ -1,6 +1,36 @@
 # FurnitureDesign
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Furniture Design is a front-end framework which has several pages such as About in which there is introduction about the website. Then there are distinct furniture items listed such as Beds, Shoe Racks, Wardrobes, Dressing Tables, Sofas, TV Units. Moreover, tehre are some new designs introduced such as curvelinear designs, distressed designs and etc. Handpicked Collection is also added. Some decorative things are there to style your home.Login and Sign up pages are included.
+
+NOTE: This is a Sample Project, So I have used only Front-end Framework and the database is not connected.
+
+## Technologies used
+
+npm
+
+Angular CLI
+
+HTML and CSS
+
+JavaScript
+
+TypeScript
+
+Angular
+
+## Software and Tools Required 
+
+IDE
+
+## Importing and running the project through Eclipse IDE on Mac
+
+Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
+
+Step 1: Click On File > Import > Git > Projects From Git(with smart import) > Clone Uri > Paste The Repository Url as:https://github.com/NavpreetRajput/FurnitureDesign Select Next > Next >(Choose the Directory where you want to save the project, For Example: EClipse Workspace) Select Next > (Select import as General Project) Select Next> Finish
+
+Step 2: Run `ng serve --open` in the terminal.It will navigate to `http://localhost:4200/`.
+
 
 ## Development server
 
