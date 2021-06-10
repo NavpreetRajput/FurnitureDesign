@@ -1,3 +1,5 @@
+/* This is for the background alignment and style */
+
 .hand3{
     top:10%;
     left: 17%;
@@ -8,6 +10,7 @@
     width:82.5%;
     float: right;
 }
+/*  Background of the page*/
 #img2{
     z-index:0;
     /* background-image: url("../../assets/images/staffback4.jpg"); */
