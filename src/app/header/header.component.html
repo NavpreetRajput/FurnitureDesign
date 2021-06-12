@@ -1,39 +1,41 @@
 <div style="width:83.5%;float:right" class="head">
+<!-- Color of the mat-toolbar -->
+    <mat-toolbar color="accent">
 
-  <mat-toolbar color="accent">
-
-    <!-- <div style=" background-color:black;width:40%;float:left;text-align:right;">
+        <!-- <div style=" background-color:black;width:40%;float:left;text-align:right;">
        <font style="font-size:40px;color:#FFC107"face="Ink free">Furniture Design</font>        &nbsp;      
 
    </div>  -->
-   <div style="width:40%;">
-     <font style="font-size:40px;color:black;font-family: black"face="Ink free" >Furniture Design</font> 
-   </div>
-<div  style=" width:50%;float:left;text-align:left;">
+        <div style="width:40%;">
+            <!-- Heading of the website -->
+            <font style="font-size:40px;color:black;font-family: black" face="Ink free">Furniture Design</font>
+        </div>
+        <div style=" width:50%;float:left;text-align:left;">
 
-</div>
-
-   <div style=" width:10%;float:right;text-align:right;">
-      <button mat-icon-button><mat-icon>question_answer</mat-icon></button>
-      <button mat-icon-button> <mat-icon><a routerLink='home' >home</a></mat-icon></button>
-      <button mat-icon-button [matMenuTriggerFor]="menus">
+        </div>
+<!-- THe icons are created as buttons -->
+        <div style=" width:10%;float:right;text-align:right;">
+            <button mat-icon-button><mat-icon>question_answer</mat-icon></button>
+            <button mat-icon-button> <mat-icon><a routerLink='home' >home</a></mat-icon></button>
+            <button mat-icon-button [matMenuTriggerFor]="menus">
         <mat-icon><b>more_vert</b></mat-icon>
       </button>
 
-      <mat-menu #menus="matMenu">
-       <button mat-menu-item> <mat-icon>dialpad</mat-icon>
+      <!-- MatMenu is created for three items and it has drop down menu -->
+            <mat-menu #menus="matMenu">
+                <button mat-menu-item> <mat-icon>dialpad</mat-icon>
         <span>Redial</span></button>
 
-        <button mat-menu-item><mat-icon>voicemail</mat-icon>
+                <button mat-menu-item><mat-icon>voicemail</mat-icon>
         <span>Voicemail</span></button>
 
-        <button mat-menu-item> <mat-icon>notifications_off</mat-icon>
+                <button mat-menu-item> <mat-icon>notifications_off</mat-icon>
         <span>Disable alerts</span></button>
-      </mat-menu>
-
-       
-    </div>
+            </mat-menu>
 
 
-  </mat-toolbar>
+        </div>
+
+
+    </mat-toolbar>
 </div>
