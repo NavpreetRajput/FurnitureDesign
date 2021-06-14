@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Home2Component } from './home2.component';
+// Straight Jasmine testing without Angular's testing support
 
 describe('Home2Component', () => {
   let component: Home2Component;
