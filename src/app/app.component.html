@@ -1,47 +1,48 @@
-
-<div >
-  <app-header></app-header>
+<div>
+    <app-header></app-header>
 </div>
 <div>
-  <app-sidenav></app-sidenav>
+    <app-sidenav></app-sidenav>
 </div>
 
 
-<div >
-<img    src="../assets/images/black2.jpg" class="home" >
-<div  class="main" style="z-index:auto;position:absolute;margin-top:10%;margin-left: 36%">
-   <h1 style="font-size:50px;color:white">
-     Welcome to Furniture Design!!!!
-   </h1>
-</div >
-
-
-
-
-<div style="z-index:auto;position:absolute;margin-top:20%;margin-left: 20%;height:50%;width:75%; ">
 <div>
-  <img style="border:2px solid black;position:abs;height:50%;width:30.5%;float: left;"src="../assets/images/front1.jpg">
-</div>
-
-<div  style="position:relative;left:1%">
-    <img style="border:2px solid black;position:relative;height:50%;width:30%;float: left"src="../assets/images/front8.jpg">
-  </div>
-
-  <div style="position:relative;left:2%">
-      <img style="border:2px solid black;z-index:0;position:relative;height:70%;width:33.5%;float: left"src="../assets/images/front3.jpg">
+    <!-- Background Image -->
+    <img src="../assets/images/black2.jpg" class="home">
+    <div class="main" style="z-index:auto;position:absolute;margin-top:10%;margin-left: 36%">
+        <!-- Heading of the home page -->
+        <h1 style="font-size:50px;color:white">
+            Welcome to Furniture Design!!!!
+        </h1>
     </div>
 
-    <!-- <div>
+
+    <!-- Alignment and style of the images on the Home page -->
+
+    <div style="z-index:auto;position:absolute;margin-top:20%;margin-left: 20%;height:50%;width:75%; ">
+        <div>
+            <img style="border:2px solid black;position:abs;height:50%;width:30.5%;float: left;" src="../assets/images/front1.jpg">
+        </div>
+
+        <div style="position:relative;left:1%">
+            <img style="border:2px solid black;position:relative;height:50%;width:30%;float: left" src="../assets/images/front8.jpg">
+        </div>
+
+        <div style="position:relative;left:2%">
+            <img style="border:2px solid black;z-index:0;position:relative;height:70%;width:33.5%;float: left" src="../assets/images/front3.jpg">
+        </div>
+
+        <!-- <div>
         <img style="position:relative;height:50%;width:30%;float: left;"src="../assets/images/front4.jpg">
       </div> -->
-</div>
+    </div>
 
 
-
-<button style="z-index:1;position:absolute;margin-top:45.5%;position:fixed;margin-left: 95%;"   mat-fab>
+    <!-- Home button that redirects to the home page on clicking it -->
+    <button style="z-index:1;position:absolute;margin-top:45.5%;position:fixed;margin-left: 95%;" mat-fab>
   <a routerLink='home1' style="color:black;text-decoration: none;">Home</a></button>
 
-<!-- <div style="position:absolute;top:600px;left:17%;background-color:black">
+    <!-- <div style="position:absolute;top:600px;left:17%;background-color:black">
 <img src="../assets/images/walpaper3.jpg" style="float:left;width:20%;">
 <img src="../assets/images/walpaper4.jpg" style="float:left;width:20%;">
 <img src="../assets/images/walpaper6.jpg" style="float:left;width:18%;">
@@ -55,6 +56,6 @@
 
 
 <div>
-  <router-outlet></router-outlet>   
+    <router-outlet></router-outlet>
 
 </div>
