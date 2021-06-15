@@ -1,11 +1,12 @@
 
-.home3{
-    top:10%;
+/* Alignment and style of the background of Pots and Planters Page */
+
+.home3 {
+    top: 10%;
     left: 17%;
-    position:absolute;
-    height:710px;
-    background-color:whitesmoke;
-   
-    width:82.5%;
+    position: absolute;
+    height: 710px;
+    background-color: black;
+    width: 82.5%;
     float: right;
 }
