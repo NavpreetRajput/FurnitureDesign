@@ -1,9 +1,11 @@
-.item{
-    top:10%;
+/* Background of the page */
+
+.item {
+    top: 10%;
     left: 17%;
-    position:absolute;
+    position: absolute;
     height: auto;
-    background-color:black;
-    width:82.5%;
+    background-color: black;
+    width: 82.5%;
     float: right;
 }
