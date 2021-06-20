@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SidenavComponent } from './sidenav.component';
+// Straight Jasmine testing without Angular's testing support
 
 describe('SidenavComponent', () => {
   let component: SidenavComponent;
