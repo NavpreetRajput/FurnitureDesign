@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { New1Component } from './new1.component';
+// Straight Jasmine testing without Angular's testing support
 
 describe('New1Component', () => {
   let component: New1Component;
